@@ -1,0 +1,72 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 1em;
+  padding: 0.5em;
+}
+
+nav {
+  background-color: rgb(41, 125, 209);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  width: 65%;
+}
+
+main section:first-child {
+  height: 40vh;
+  scroll-behavior: auto;
+  overflow: auto;
+  border: 1px solid gray;
+  box-shadow: 2px 2px 4px gray;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.progress-bar div {
+  background-color: rgb(119, 196, 171);
+  width: 60%;
+  border-radius: 20px;
+  margin-bottom: 0.5em;
+}
+
+article {
+  box-shadow: 2px 2px 4px gray;
+  margin-bottom: 1em;
+  padding: 1em 0.5em;
+}
+
+.modal {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal > div {
+  height: 90vh;
+  width: 90%;
+  background-color: rgb(208, 229, 250);
+  top: 20px;
+  left: 20px;
+  box-shadow: 2px 2px 4px rgb(21, 21, 21);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
